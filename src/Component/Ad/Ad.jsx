@@ -3,6 +3,7 @@ import ad from "../../assets/icons/ad.svg";
 
 const Ad = () => {
   return (
+    // the Ads of WebSite The Parent is Left
     <div className="relative w-full h-32 mb-5 bg-[#E7E7E7]">
       <img
         className="absolute z-0 h-full"

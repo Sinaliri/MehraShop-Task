@@ -7,8 +7,11 @@ import { product } from "./assets/infos/productinfo";
 function App() {
   return (
     <div className="flex flex-wrap flex-row-reverse  mx-5 md:mx-10 ">
+      {/* slider */}
       <Main images={product.images} />
+      {/* Product Detail */}
       <Center item={product} />
+      {/* Feature */}
       <Left />
     </div>
   );

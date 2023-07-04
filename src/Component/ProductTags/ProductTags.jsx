@@ -14,6 +14,7 @@ const ProductTags = ({ ID1, storeName, tags }) => {
     { image: telegram },
   ];
   return (
+    // product tags and Social medias
     <div className={`text-base w-full mt-5 mb-2`}>
       <div>
         <span style={{ color: "#878787" }}> {ID1}</span>

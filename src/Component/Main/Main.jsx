@@ -15,6 +15,7 @@ const Main = ({ images }) => {
   const [selected, setSelected] = useState(images[0]);
 
   return (
+    // this component is about
     <div className="w-full xl:w-4/12 flex justify-center items-center flex-row overflow-hidden ">
       <div className=" md:w-10/12 flex justify-center items-center flex-col overflow-hidden">
         <div

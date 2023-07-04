@@ -20,9 +20,9 @@ export const product = {
       value: "ماران دیابتی",
     },
   ],
-  originalprice: "۴۶۰۰۰۰",
+  originalprice: 460000,
   discount: "۲۰",
-  currentPrice: "۳۶۸۰۰۰",
+  currentPrice: 368000,
   ProductCode: 12345,
   availableStore: "مهراشاپ",
   Quantities: [
@@ -36,7 +36,7 @@ export const product = {
     },
     {
       id: "button3",
-      value: "۲ لیتر",
+      value: "۲ لیتر ",
     },
   ],
   tags: ["روغن درمانی", "روغن درمانی"],

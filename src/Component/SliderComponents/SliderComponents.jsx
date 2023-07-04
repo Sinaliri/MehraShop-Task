@@ -1,13 +1,11 @@
 import React from "react";
 
 const SliderComponents = ({ image, handler, selectedID }) => {
-  console.log(selectedID);
   const imageChanged = (event) => {
-    // console.log(event.target.id);
-    console.log(image);
     handler(image);
   };
   return (
+    // each slider
     <div
       id={image.imageid}
       val

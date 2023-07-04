@@ -19,6 +19,7 @@ const Center = ({ item }) => {
     }
   };
   return (
+    // this component is about counter button , group button , add to cart button
     <div className={` w-full md:w-8/12 xl:w-6/12 text-right p-6`}>
       <h3 className={`text-2xl font-bold`} style={{ color: "#383838" }}>
         {item.title}
@@ -44,11 +45,13 @@ const Center = ({ item }) => {
                           color: "#fff",
                           width: "72px",
                           border: "1px solid #c4c6c2",
+                          direction: "rtl",
                         }
                       : {
                           width: "72px",
                           border: "1px solid #c4c6c2",
                           color: "#c4c6c2",
+                          direction: "rtl",
                         }
                   }
                   onClick={() => handleClick(item.id)}
@@ -96,7 +99,7 @@ const Center = ({ item }) => {
                 {item.discount}%
               </span>
               <s className="font-normal text-xl" style={{ color: "#C4C6C2" }}>
-                {item.currentPrice}
+                {item.originalprice}
               </s>
             </div>
             <div
@@ -109,7 +112,7 @@ const Center = ({ item }) => {
                 className="text-2xl font-medium"
                 style={{ color: "#86BC42" }}
               >
-                {item.currentPrice}
+                {item.currentPrice * number}
               </div>
             </div>
           </div>

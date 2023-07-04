@@ -5,7 +5,9 @@
 @font-face {
   font-family: "Sahel";
   src: url("./assets/fonts/Sahel.ttf") format('ttf'),
-  url("./assets/fonts/Sahel.woff") format('woff');
+  url("./assets/fonts/Sahel.woff") format('woff'),
+  url("./assets/fonts/Sahel-FD.ttf") format('ttf'),
+  url("./assets/fonts/Sahel-FD-WOL.ttf") format('ttf');
 }
 
 body {

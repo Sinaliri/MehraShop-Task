@@ -14,6 +14,7 @@ const ProductInfo = ({ rating, text }) => {
   }
   return (
     <>
+      {/* this part is about voting, Description, and info */}
       <div className={` flex justify-between items-center mt-2`}>
         <div
           className={`mt-2 text-sm font-normal flex flex-nowrap w-3/12`}
